@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Namste React</title>
+  </head>
+  <body>
+    <div id="root">
+      <!-- <h1>Namaste Everyone!</h1> -->
+    </div>
+    <script>
+        //creating h1 tag in our html page
+     const heading = document.createElement("h1");
+
+     //writing something inside h1
+     heading.innerHTML="Namaste Everyone from javascript";
+
+     
+     const root = document.getElementById("root");
+
+     // putting heading/h1 inside document in div 
+     root.appendChild(heading);
+    </script>
+  </body>
+</html>
